@@ -1,2 +1,2 @@
 const m = require('./build/Release/matlab.node');
-console.log(m.gm3Version())
+m.gm3Version(console.log)
