@@ -1,0 +1,20 @@
+{
+  "name": "cppwebify-tutorial",
+  "version": "1.0.0",
+  "description": "This repository is the code for a blog series I wrote [here](http://blog.scottfrees.com/getting-your-c-to-the-web-with-node-js). It's designed to outline a few ways to take legacy C++ (or new C++) and integrate it with Node.js.",
+  "main": "index.js",
+  "os": [
+    "win32"
+  ],
+  "dependencies": {
+    "nan": "^2.10.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^3.6.2"
+  },
+  "scripts": {
+    "configure": "node-gyp configure",
+    "build": "node-gyp build",
+    "rebuild": "node-gyp rebuild"
+  }
+}
